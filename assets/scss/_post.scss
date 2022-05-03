@@ -5,9 +5,13 @@
     color: white;
     button {
         border: 0;
+        border-radius: 5px;
         padding: 10px 20px;
         background-color: $colorSecundario;
-        color: $colorBlanco
+        color: $colorBlanco;
+        &:hover{
+            background-color: $colorHover ;
+        }
     }
     h5{
         font-size: $fuenteTamanioTitulo;
